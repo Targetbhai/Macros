@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "clientgui",
+  "version": "${version}",
+  "name": "Client GUI",
+  "description": "Small client with a click GUI. Press M.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.clientgui.ClientGuiMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
